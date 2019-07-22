@@ -14,7 +14,6 @@ const App = () => {
   	<React.Fragment>
 	    <NavBar />
 	    <Home />
-	    <Me />
 	    <Educations />
 	    <Works />
 	    <Contact />

@@ -21,7 +21,6 @@ const NavBar = () => {
                     </a>
                     <ul className="right hide-on-med-and-down">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#me">About Me</a></li>
                         <li><a href="#educations">Educations</a></li>
                         <li><a href="#works">Work history</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -33,7 +32,6 @@ const NavBar = () => {
     </div>
     <ul className="sidenav" id="mobile-demo">
       <li><a href="#home">Home</a></li>
-      <li><a href="#me">About Me</a></li>
       <li><a href="#educations">Educations</a></li>
       <li><a href="#works">Work history</a></li>
       <li><a href="#contact">Contact</a></li>
