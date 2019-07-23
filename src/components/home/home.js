@@ -1,6 +1,5 @@
 import React from 'react';
 import Me from './../me/me';
-import './home.css';
 
 const Home = () => {
 	return (
@@ -8,7 +7,7 @@ const Home = () => {
       <div className="section" id="home">
         <div className="container">
           <h5 className="center text-grey margin-top-5">Looking for a position in</h5>
-          <h1 className="center">
+          <h1 className="center title">
             Software Engineer
           </h1>
           <Me />

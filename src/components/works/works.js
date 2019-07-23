@@ -3,7 +3,8 @@ import './works.css'
 
 const Works = () => {
   return (
-    <div id={'works'} className={'section blue'}>
+    <div id={'works'} className={'section'}>
+      <h1 className={'center title'}>Works</h1>
       <div className="row">
         <div className="col s12 m4">
           <div className="card work-card">

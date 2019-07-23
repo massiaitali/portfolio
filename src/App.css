@@ -21,3 +21,12 @@
 .text-black {
   color: black;
 }
+
+.title {
+  font-weight: 300;
+  color: brown;
+}
+
+.no-top-padding {
+  padding-top: 0px;
+}

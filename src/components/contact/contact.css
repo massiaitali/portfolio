@@ -1,11 +1,3 @@
-#contact {
-    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/uD8Hd-O/videoblocks-triangulation-pattern-low-poly-light-blue-triangle-mesh-background-loop-animation_rze02vqmpm_thumbnail-full01.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
-}
 .contact-size {
     font-size: 4em;
     color: white;
