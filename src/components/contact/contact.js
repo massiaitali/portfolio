@@ -3,10 +3,11 @@ import ContactItem from './contactItem';
 import './contact.css';
 
 const Contact = ({data}) => {
-  const { social } = data;
+  const { social, title } = data;
   return (
 
     <div id={'contact'} className={'section'}>
+      <h1 className={'center title'}>{ title }</h1>
       <div className="row">
         {
           social.map((item, index) =>

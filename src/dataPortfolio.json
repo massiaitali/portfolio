@@ -25,6 +25,7 @@
     ]
   },
   "contact": {
+    "title": "Contact",
     "social": [
       {
         "network": "fa-envelope-o",

@@ -8,7 +8,7 @@ const Home = ({ data }) => {
 		<div className="section" id="home">
       <div className="section" id="home">
         <div className="container">
-          <h5 className="center text-grey margin-top-5">{ search }</h5>
+          <h5 className="center text-black margin-top-5">{ search }</h5>
           <h1 className="center title">
             { job }
           </h1>

@@ -7,14 +7,16 @@ const NavBar = ({data}) => {
 
   const { brand, nav, downloadButton } = data;
 
-  const tabElements = nav.map( (item,i) =>
-                        <NavbarItem key={i+'contact'} item={item} i={i}/>
-                      );
+  const tabElements =
+    nav.map( (item,i) =>
+      <NavbarItem key={i+'contact'} item={item} i={i}/>
+    );
 
   useEffect(() => {
     const elems = document.querySelectorAll(".sidenav");
     const instance = M.Sidenav;
-    instance.init(elems);;
+    instance.init(elems);
+
   }, []);
 
   return (
