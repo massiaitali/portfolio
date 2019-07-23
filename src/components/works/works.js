@@ -1,6 +1,5 @@
 import React from 'react';
 import WorkItem from './workItem';
-import './works.css'
 
 const Works = ({ data }) => {
   const { title, worksItem } = data;

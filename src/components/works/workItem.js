@@ -3,7 +3,7 @@ import React from 'react';
 const WorkItem = ({ item, index }) => {
   return (
     <div key={index+'cardwork'} className="col s12 m4">
-      <div className="card work-card">
+      <div className="card port-card">
         <div className="card-image">
           <img alt={item.img.alt} src={item.img.src}/>
         </div>

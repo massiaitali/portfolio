@@ -1,6 +1,5 @@
 import React from 'react';
 import EducationItem from './educationItem';
-import './educations.css';
 
 const Educations = ({ data }) => {
   const { title, school } = data;
