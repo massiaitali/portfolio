@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({data}) => {
+  const { name, github } = data;
+
   return (
     <footer className="page-footer blue no-top-padding">
       <div className="footer-copyright">
         <div className="container">
-          © 2019 Massinissa Ait Ali
-          <a className="grey-text text-lighten-4 right" href='https://github.com/massiaitali/portfolio'>Github Portfolio</a>
+          { name }
+          <a className="grey-text text-lighten-4 right" href={github.src}>{ github.label }</a>
         </div>
       </div>
     </footer>

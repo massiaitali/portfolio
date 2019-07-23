@@ -3,5 +3,5 @@
 }
 .school-card {
     width: 80%;
-    margin: 1em auto 1em auto;
+    margin: 1em auto 1em auto !important;
 }
