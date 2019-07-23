@@ -9,11 +9,3 @@
 main {
     background-color: black;
 }
-#root {
-    background-image: url('http://all4desktop.com/data_images/original/4236532-background-images.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
-}
