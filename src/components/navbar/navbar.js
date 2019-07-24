@@ -5,7 +5,7 @@ import { NavbarItem, clickMobile }  from './navbarItem';
 
 const NavBar = ({ data, uselang }) => {
 
-  const { brand, nav, downloadButton } = data;
+  const { brand, nav, downloadButton, lang } = data;
 
   const tabElements =
     nav.map( (item,i) =>
@@ -25,9 +25,9 @@ const NavBar = ({ data, uselang }) => {
     <React.Fragment>
 		<div className="navbar-fixed">
       <ul id="langage" className="dropdown-content" onClick={() => clickMobile()}>
-        <li><a href="#en" onClick={(event) => uselang('en')}>English</a></li>
+        <li><a href={`#${lang.options[0].value}`} onClick={() => uselang('en')}>{ lang.options[0].label }</a></li>
         <li className="divider"></li>
-        <li><a href="#fr"onClick={(event) => uselang('fr')}>French</a></li>
+        <li><a href={`#${lang.options[1].value}`} onClick={() => uselang('fr')}>{ lang.options[1].label }</a></li>
       </ul>
         <nav className="blue">
             <div className="container">
@@ -39,7 +39,7 @@ const NavBar = ({ data, uselang }) => {
                     <ul className="right hide-on-med-and-down">
                         { tabElements }
                         <li>
-                          <a className="dropdown-trigger" href="#lang" data-target="langage">Lang<i
+                          <a className="dropdown-trigger" href="#lang" data-target="langage">{ lang.label }<i
                             className="material-icons right">arrow_drop_down</i></a>
                         </li>
                         <li><DownloadButton data={ downloadButton }/></li>
@@ -56,7 +56,7 @@ const NavBar = ({ data, uselang }) => {
     <ul className="sidenav" id="mobile-demo">
       { tabElements }
       <li>
-        <a className="dropdown-trigger" href="#lang" data-target="langageMob">Lang<i
+        <a className="dropdown-trigger" href="#lang" data-target="langageMob">{ lang.label }<i
           className="material-icons right">arrow_drop_down</i></a>
       </li>
       <li><DownloadButton data={downloadButton}/></li>

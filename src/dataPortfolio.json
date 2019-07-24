@@ -1,6 +1,19 @@
 {
   "en" : {
     "navbar": {
+      "lang": {
+        "label": "Language",
+        "options": [
+          {
+            "label": "English",
+            "value": "en"
+          },
+          {
+            "label": "French",
+            "value": "fr"
+          }
+        ]
+      },
       "downloadButton": {
         "label": "Resume",
         "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
@@ -115,6 +128,19 @@
   },
   "fr" : {
     "navbar": {
+      "lang": {
+        "label": "Langue",
+        "options": [
+          {
+            "label": "Anglais",
+            "value": "en"
+          },
+          {
+            "label": "Français",
+            "value": "fr"
+          }
+        ]
+      },
       "downloadButton": {
         "label": "CV",
         "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
