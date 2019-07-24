@@ -1,4 +1,5 @@
 import React from 'react';
+import Parser from 'html-react-parser';
 
 const WorkItem = ({ item, index }) => {
   return (
@@ -9,7 +10,7 @@ const WorkItem = ({ item, index }) => {
         </div>
         <div key={index+'cardwork'} className="card-content">
           <span key={index+'titlework'} className="card-title">{item.title}</span>
-          <p key={index+'contentwork'} >{item.content}</p>
+          <p key={index+'contentwork'} >{Parser(item.content)}</p>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@
       },
       "downloadButton": {
         "label": "Resume",
-        "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
+        "url": "https://drive.google.com/uc?export=download&id=1evRQhnn_U-XQ5BpHWVMcPgeUm9oC4Cv9"
       },
       "brand": "MA",
       "nav": [
@@ -72,7 +72,7 @@
             "src": "./images/polytechps.png"
           },
           "title": "Polytech Paris Sud",
-          "content": "General IT study with a lot of mathematicals ( Algebra, Analysis ). I learn :\n              POO (Java)\n              Web Development ( Node Js Server in back and vanilla js in front ) Machine Learning ( Python and JuliaLang )\n              3D and Virtual Reality ( Unity )\n              advanced IT skills like Polymorphism\n              Algorithm optimization (Parallelization, SIMD)"
+          "content": "General IT study with a lot of mathematicals ( Algebra, Analysis ).\n<br/><br/>\nI learn :\n<ul>\n<li> POO (Java) </li>\n<li> Web Development ( Node Js Server in back and vanilla js / Angular 2+ in front ) </li>\n<li> Machine Learning ( Python and JuliaLang )  </li>\n<li> 3D and Virtual Reality ( Unity ) </li>\n<li> advanced IT skills like Polymorphism ( generic programmation ) </li>\n<li> Algorithm optimization (Parallelization, SIMD, CUDA) </li>\n</ul>"
         }
       ]
     },
@@ -90,8 +90,8 @@
           "src": "./images/profil.png"
         },
         "name": "Massinissa Ait Ali",
-        "detail": "I am the lucky winner of a green card through the American lottery. I am honored and excited to work in the United States. I love web development, i do front-end in my work and fullstack in personal projects.",
-        "exp": "4 Years Experiences in company / Engineer School"
+        "detail": "I am a winner of a green card through the American lottery. I am honored and excited to work in the United States. \nI love web development, I do front-end development in my work and fullstack in personal projects. My favorite stack is ReactJS :)",
+        "exp": "4 Years Experiences in company"
       },
       "search": "Looking for a position in",
       "job": "Software Engineer"
@@ -105,7 +105,7 @@
             "src": "./images/al.png"
           },
           "title": "Air Liquide",
-          "content": "Develop web app with vanilla JS and PHP Back-End. Scope of web app :\nManaging return of client Tracability of gas cylinder Helper for prospecting clients"
+          "content": "Develop web app with vanilla JS, Jquery, VueJS and PHP Back-End. \nScope of web app :\n<ul>\n<li> Managing return of client </li>\n<li> Tracability of \uFEFFgas cylinder </li>\n<li> Helper for prospecting clients  </li>\n</ul>"
         },
         {
           "img": {
@@ -113,7 +113,7 @@
             "src": "./images/subexp.png"
           },
           "title": "Submit Express",
-          "content": "Develop scripts (PHP and Node) for SEO calculator like :\nBack Link References"
+          "content": "Develop scripts (PHP and Node) for SEO calculator  like : \n<ul>\n<li> Back Link </li>\n<li> References</li>\n</ul>"
         },
         {
           "img": {
@@ -121,7 +121,7 @@
             "src": "./images/axa.png"
           },
           "title": "Axa",
-          "content": "Develop components for Axa Business Quotation. technologies :\nReact\nLess\nES6\nAEM (Adobe CMS) Java Back-End\nLink of AXA France : www.axa.fr"
+          "content": "Develop components for Axa Business Quotation.<br/><br/><strong>Technologies</strong> : \n<ul> \n<li> React </li>\n<li> Less </li>\n<li> ES6 </li>\n<li> AEM (Adobe CMS) </li>\n<li> Java Back-End </li>\n</ul>\nLink of AXA France : www.axa.fr"
         }
       ]
     }
@@ -143,7 +143,7 @@
       },
       "downloadButton": {
         "label": "CV",
-        "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
+        "url": "https://drive.google.com/uc?export=download&id=1evRQhnn_U-XQ5BpHWVMcPgeUm9oC4Cv9"
       },
       "brand": "MA",
       "nav": [
@@ -199,7 +199,7 @@
             "src": "./images/polytechps.png"
           },
           "title": "Polytech Paris Sud",
-          "content": "Applications de domaines informatiques, parallelisation, test logiciel ...."
+          "content": "Applications de domaines informatiques, parallelisation, test logiciel"
         }
       ]
     },
@@ -218,13 +218,13 @@
         },
         "name": "Massinissa Ait Ali",
         "detail": "Je suis ingénieur dans le domaine de l'informatique chez Axa. Je suis dynamique, motivé et\npolyvalent dans mon travail. Je suis à la recherche de travail en\ntant que junior/intermediaire diplômé.",
-        "exp": "4 Years Experiences in company / Engineer School"
+        "exp": "4 Année d'Experiences en entreprise"
       },
       "search": "En recherche d'entreprise dans le domaine",
-      "job": "Software Engineer"
+      "job": "Ingénieur Logiciel"
     },
     "works": {
-      "title": "Works",
+      "title": "Expériences",
       "worksItem": [
         {
           "img": {
@@ -248,7 +248,7 @@
             "src": "./images/axa.png"
           },
           "title": "Axa",
-          "content": "Developement de devis en react/vanillaJS/jquery/less/AEM www.axa.fr"
+          "content": "Developement de devis en react/vanillaJS/jquery/less/AEM <br/><br/> Site web : www.axa.fr"
         }
       ]
     }
