@@ -10,7 +10,7 @@ const WorkItem = ({ item, index }) => {
         </div>
         <div key={index+'cardwork'} className="card-content">
           <span key={index+'titlework'} className="card-title">{item.title}</span>
-          <p key={index+'contentwork'} >{Parser(item.content)}</p>
+          {Parser(item.content)}
         </div>
       </div>
     </div>

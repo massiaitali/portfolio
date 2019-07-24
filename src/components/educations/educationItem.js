@@ -10,9 +10,7 @@ const EducationItem = ({item, index}) => {
         </div>
         <div  key={index+'content'} className="card-content">
           <span  key={index+'title'} className="card-title">{item.title}</span>
-          <p key={index} >
             {Parser(item.content)}
-          </p>
         </div>
       </div>
     </div>
