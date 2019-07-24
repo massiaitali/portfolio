@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import NavBar from './components/navbar/navbar';
 import Home from './components/home/home';
 import Educations from './components/educations/educations';
@@ -12,10 +12,15 @@ import './App.css';
 import data from './dataPortfolio'
 
 const App = () => {
-	const { navbar, contact, educations, footer, home, works } = data;
+	const [lang, useLang] = useState('en');
+
+	const dataPortfolio = data[lang];
+
+
+	const { navbar, contact, educations, footer, home, works } = dataPortfolio;
   return (
   	<React.Fragment>
-	    <NavBar data={navbar} />
+	    <NavBar data={navbar} uselang={useLang} />
 	    <Home data={home}/>
 	    <Educations data={educations}/>
 	    <Works data={works}/>
