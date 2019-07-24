@@ -1,114 +1,230 @@
 {
-  "navbar": {
-    "downloadButton": {
-      "label": "Resume",
-      "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
+  "en" : {
+    "navbar": {
+      "downloadButton": {
+        "label": "Resume",
+        "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
+      },
+      "brand": "MA",
+      "nav": [
+        {
+          "href": "home",
+          "label": "Home"
+        },
+        {
+          "href": "educations",
+          "label": "Educations"
+        },
+        {
+          "href": "works",
+          "label": "Work history"
+        },
+        {
+          "href": "contact",
+          "label": "Contact"
+        }
+      ]
     },
-    "brand": "MA",
-    "nav": [
-      {
-        "href": "home",
-        "label": "Home"
-      },
-      {
-        "href": "educations",
-        "label": "Educations"
-      },
-      {
-        "href": "works",
-        "label": "Work history"
-      },
-      {
-        "href": "contact",
-        "label": "Contact"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contact",
-    "social": [
-      {
-        "network": "fa-envelope-o",
-        "url": "mailto:massi.aitali@gmail.com"
-      },
-      {
-        "network": "fa-linkedin",
-        "url": "https://www.linkedin.com/in/massinissa-ait-ali-07711aba/"
-      },
-      {
-        "network": "fa-github",
-        "url": "https://github.com/massiaitali"
-      }
-    ]
-  },
-  "educations": {
-    "title": "Educations",
-    "school": [
-      {
-        "img": {
-          "alt": "Polytech Tours",
-          "src": "./images/polytechtours.png"
+    "contact": {
+      "title": "Contact",
+      "social": [
+        {
+          "network": "fa-envelope-o",
+          "url": "mailto:massi.aitali@gmail.com"
         },
-        "title": "Polytech Tours",
-        "content": "Discover application of mathematics in computer science, create auto navigation with dijkstra application. Make a quadricopter with 3D impression and develop settings and some feature with arduino chip"
-      },
-      {
-        "img": {
-          "alt": "Polytech Paris Sud",
-          "src": "./images/polytechps.png"
+        {
+          "network": "fa-linkedin",
+          "url": "https://www.linkedin.com/in/massinissa-ait-ali-07711aba/"
         },
-        "title": "Polytech Paris Sud",
-        "content": "General IT study with a lot of mathematicals ( Algebra, Analysis ). I learn :\n              POO (Java)\n              Web Development ( Node Js Server in back and vanilla js in front ) Machine Learning ( Python and JuliaLang )\n              3D and Virtual Reality ( Unity )\n              advanced IT skills like Polymorphism\n              Algorithm optimization (Parallelization, SIMD)"
+        {
+          "network": "fa-github",
+          "url": "https://github.com/massiaitali"
+        }
+      ]
+    },
+    "educations": {
+      "title": "Educations",
+      "school": [
+        {
+          "img": {
+            "alt": "Polytech Tours",
+            "src": "./images/polytechtours.png"
+          },
+          "title": "Polytech Tours",
+          "content": "Discover application of mathematics in computer science, create auto navigation with dijkstra application. Make a quadricopter with 3D impression and develop settings and some feature with arduino chip"
+        },
+        {
+          "img": {
+            "alt": "Polytech Paris Sud",
+            "src": "./images/polytechps.png"
+          },
+          "title": "Polytech Paris Sud",
+          "content": "General IT study with a lot of mathematicals ( Algebra, Analysis ). I learn :\n              POO (Java)\n              Web Development ( Node Js Server in back and vanilla js in front ) Machine Learning ( Python and JuliaLang )\n              3D and Virtual Reality ( Unity )\n              advanced IT skills like Polymorphism\n              Algorithm optimization (Parallelization, SIMD)"
+        }
+      ]
+    },
+    "footer": {
+      "name": "© 2019 Massinissa Ait Ali",
+      "github": {
+        "src" : "https://github.com/massiaitali/portfolio",
+        "label": "Github Portfolio"
       }
-    ]
-  },
-  "footer": {
-    "name": "© 2019 Massinissa Ait Ali",
-    "github": {
-      "src" : "https://github.com/massiaitali/portfolio",
-      "label": "Github Portfolio"
+    },
+    "home": {
+      "me": {
+        "profil": {
+          "alt": "profil",
+          "src": "./images/profil.png"
+        },
+        "name": "Massinissa Ait Ali",
+        "detail": "I am the lucky winner of a green card through the American lottery. I am honored and excited to work in the United States. I love web development, i do front-end in my work and fullstack in personal projects.",
+        "exp": "4 Years Experiences in company / Engineer School"
+      },
+      "search": "Looking for a position in",
+      "job": "Software Engineer"
+    },
+    "works": {
+      "title": "Works",
+      "worksItem": [
+        {
+          "img": {
+            "alt": "airliquide",
+            "src": "./images/al.png"
+          },
+          "title": "Air Liquide",
+          "content": "Develop web app with vanilla JS and PHP Back-End. Scope of web app :\nManaging return of client Tracability of gas cylinder Helper for prospecting clients"
+        },
+        {
+          "img": {
+            "alt": "submit express",
+            "src": "./images/subexp.png"
+          },
+          "title": "Submit Express",
+          "content": "Develop scripts (PHP and Node) for SEO calculator like :\nBack Link References"
+        },
+        {
+          "img": {
+            "alt": "axa",
+            "src": "./images/axa.png"
+          },
+          "title": "Axa",
+          "content": "Develop components for Axa Business Quotation. technologies :\nReact\nLess\nES6\nAEM (Adobe CMS) Java Back-End\nLink of AXA France : www.axa.fr"
+        }
+      ]
     }
   },
-  "home": {
-    "me": {
-      "profil": {
-        "alt": "profil",
-        "src": "./images/profil.png"
+  "fr" : {
+    "navbar": {
+      "downloadButton": {
+        "label": "CV",
+        "url": "https://drive.google.com/uc?export=download&id=173l3GHhwdu-h08ezO1XBWlmpUvNpxo3x"
       },
-      "name": "Massinissa Ait Ali",
-      "detail": "I am the lucky winner of a green card through the American lottery. I am honored and excited to work in the United States. I love web development, i do front-end in my work and fullstack in personal projects.",
-      "exp": "4 Years Experiences in company / Engineer School"
+      "brand": "MA",
+      "nav": [
+        {
+          "href": "home",
+          "label": "Accueil"
+        },
+        {
+          "href": "educations",
+          "label": "Educations"
+        },
+        {
+          "href": "works",
+          "label": "Expériences"
+        },
+        {
+          "href": "contact",
+          "label": "Contact"
+        }
+      ]
     },
-    "search": "Looking for a position in",
-    "job": "Software Engineer"
-  },
-  "works": {
-    "title": "Works",
-    "worksItem": [
-      {
-        "img": {
-          "alt": "airliquide",
-          "src": "./images/al.png"
+    "contact": {
+      "title": "Contact",
+      "social": [
+        {
+          "network": "fa-envelope-o",
+          "url": "mailto:massi.aitali@gmail.com"
         },
-        "title": "Air Liquide",
-        "content": "Develop web app with vanilla JS and PHP Back-End. Scope of web app :\nManaging return of client Tracability of gas cylinder Helper for prospecting clients"
-      },
-      {
-        "img": {
-          "alt": "submit express",
-          "src": "./images/subexp.png"
+        {
+          "network": "fa-linkedin",
+          "url": "https://www.linkedin.com/in/massinissa-ait-ali-07711aba/"
         },
-        "title": "Submit Express",
-        "content": "Develop scripts (PHP and Node) for SEO calculator like :\nBack Link References"
-      },
-      {
-        "img": {
-          "alt": "axa",
-          "src": "./images/axa.png"
+        {
+          "network": "fa-github",
+          "url": "https://github.com/massiaitali"
+        }
+      ]
+    },
+    "educations": {
+      "title": "Educations",
+      "school": [
+        {
+          "img": {
+            "alt": "Polytech Tours",
+            "src": "./images/polytechtours.png"
+          },
+          "title": "Polytech Tours",
+          "content": "Découverte des algorithmes tel que disktra, application en python sur un tp de calcul de trajet le plus court."
         },
-        "title": "Axa",
-        "content": "Develop components for Axa Business Quotation. technologies :\nReact\nLess\nES6\nAEM (Adobe CMS) Java Back-End\nLink of AXA France : www.axa.fr"
+        {
+          "img": {
+            "alt": "Polytech Paris Sud",
+            "src": "./images/polytechps.png"
+          },
+          "title": "Polytech Paris Sud",
+          "content": "Applications de domaines informatiques, parallelisation, test logiciel ...."
+        }
+      ]
+    },
+    "footer": {
+      "name": "© 2019 Massinissa Ait Ali",
+      "github": {
+        "src" : "https://github.com/massiaitali/portfolio",
+        "label": "Github Portfolio"
       }
-    ]
+    },
+    "home": {
+      "me": {
+        "profil": {
+          "alt": "profil",
+          "src": "./images/profil.png"
+        },
+        "name": "Massinissa Ait Ali",
+        "detail": "Je suis ingénieur dans le domaine de l'informatique chez Axa. Je suis dynamique, motivé et\npolyvalent dans mon travail. Je suis à la recherche de travail en\ntant que junior/intermediaire diplômé.",
+        "exp": "4 Years Experiences in company / Engineer School"
+      },
+      "search": "En recherche d'entreprise dans le domaine",
+      "job": "Software Engineer"
+    },
+    "works": {
+      "title": "Works",
+      "worksItem": [
+        {
+          "img": {
+            "alt": "airliquide",
+            "src": "./images/al.png"
+          },
+          "title": "Air Liquide",
+          "content": "Dans le cadre de mon alternance, j'ai réalisé 3 projets.\nLes 3 projets sont à destinés à des clients internes.\nLes deux premiers sont des applications web et le dernier est\nune application mobile cross platform\nApplication Web : DEE à destination des opérateurs SAV\nApplication Web : Prospect à destination des opérateurs\ntéléphoniques\nApplication Mobile : Galilee APP à destination des\nmanutentionnaires"
+        },
+        {
+          "img": {
+            "alt": "submit express",
+            "src": "./images/subexp.png"
+          },
+          "title": "Submit Express",
+          "content": "Etude d'outils SEO (Search Engine Optimization) et création\nd'outil web.\nJ'ai eu l'opportunité de travailler avec une équipe américaine\ntrès efficace et ouverte d'esprit.\nOutils développés :\nVérificateur de contenu dupliqué (si une page est plagiée\nsur un autre site)\nCalcul de backlink (lien interne présent sur des sites\nexternes)"
+        },
+        {
+          "img": {
+            "alt": "axa",
+            "src": "./images/axa.png"
+          },
+          "title": "Axa",
+          "content": "Developement de devis en react/vanillaJS/jquery/less/AEM www.axa.fr"
+        }
+      ]
+    }
   }
 }
