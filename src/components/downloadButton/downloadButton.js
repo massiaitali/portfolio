@@ -14,7 +14,7 @@ const DownloadButton = ({data}) => {
 
 
   return (
-    <a href="#resume" onClick={download}>{label}</a>
+    <li><a href="#resume" onClick={download}>{label}</a></li>
   );
 };
 
