@@ -6,6 +6,11 @@
   background-attachment: fixed;
   z-index: -1;
 }
+@media screen and (max-width: 640px) {
+    #root {
+      background-image: url('background-mobile.png');
+    }
+}
 .text-white {
   color: white;
 }
